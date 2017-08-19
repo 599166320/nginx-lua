@@ -24,6 +24,7 @@ local ngx = ngx
 local jit = jit
 local var
 
+
 local _VERSION = _VERSION
 local _ENV = _ENV
 local _G = _G

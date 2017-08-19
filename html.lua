@@ -5,6 +5,7 @@ local concat = table.concat
 local pairs = pairs
 local type = type
 
+
 local function tag(name, content, attr)
     local r, a, content = {}, {}, content or attr
     r[#r + 1] = "<"
